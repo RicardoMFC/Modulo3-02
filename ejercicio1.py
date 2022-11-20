@@ -6,7 +6,7 @@ def dividir(a,b):
         return a/b
 
     except ZeroDivisionError:
-        print ("No se puede dividir entre cero\n")
+        print ("No se puede dividir entre cero")
         return "Operación no válida"
     
 #En la función dividir se van a pasar dos valores a y b, que se van a dividir. En caso de que b=0 se va a ejecutar el except ya que sería un error del 
